@@ -1,0 +1,17 @@
+.information{
+    margin-top: 20px;
+}
+.information ul{
+    padding: 0px;
+    margin: 0px;
+}
+.information ul li{
+    padding: 10px;
+}
+.information ul li:nth-child(odd){
+    background-color: #EEE;
+}
+.information ul li span{
+    display: inline-block;
+    width: 130px;
+}

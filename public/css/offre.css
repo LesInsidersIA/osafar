@@ -1,0 +1,131 @@
+body{
+	padding-top: 20px;
+}
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width:.6rem;
+}
+html::-webkit-scrollbar-track{
+    background:transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: #5B81E6;
+    border-radius: 5rem;
+}
+
+/*.heading h2{
+    color: #5B81E6;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.heading p{
+    margin: 15px 150px;
+    font-size: 20px;
+    text-align: center;
+    color: #999;
+    margin-bottom: 20px;
+}*/
+
+#content-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.column{
+	width: 600px;
+	padding: 10px;
+}
+.column h3{
+    color: #5B81E6;
+    font-size: 20px;
+}
+.column h3:hover{
+    color: orange;
+    font-size: 20px;
+}
+.column h4{
+    color: #999;
+    font-size: 15px;
+}
+.column p{
+    font-size: 14px;
+    color: #999;
+}
+#featured{
+	max-width: 500px;
+	max-height: 600px;
+	object-fit: cover;
+	cursor: pointer;
+	border: 2px solid #5B81E6;
+}
+.thumbnail{
+	object-fit: cover;
+	max-width: 180px;
+	max-height: 100px;
+	cursor: pointer;
+	opacity: 0.5;
+	margin: 5px;
+	border: 2px solid #5B81E6;
+}
+.thumbnail:hover{
+	opacity:1;
+}
+.active{
+	opacity: 1;
+}
+#slide-wrapper{
+	max-width: 500px;
+	display: flex;
+	min-height: 100px;
+	align-items: center;
+}
+#slider{
+	width: 440px;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+}
+#slider::-webkit-scrollbar {
+        height:  10px;;
+}
+#slider::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(173, 173, 173, 0.3);
+}
+#slider::-webkit-scrollbar-thumb {
+    background-color: #5B81E6;
+    outline: 1px solid rgb(186, 199, 211);
+    border-radius: 100px;
+}
+#slider::-webkit-scrollbar-thumb:hover{
+    background-color: orange;
+}
+.arrow{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	transition: .3s;
+}
+.arrow:hover{
+	opacity: .5;
+	width: 35px;
+	height: 35px;
+}
+.btn{
+    background-color: orange;
+    color: #fff;
+    border-radius: 25px;
+    padding: 4px 25px;
+    margin-left: 30px;
+}
+.btn:hover{
+    background-color:  #5B81E6;
+    color: #fff;
+}
